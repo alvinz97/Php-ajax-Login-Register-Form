@@ -6,6 +6,7 @@
     text-decoration: none;
 }
 #body {
+    height: 90vh;
     /* background: #5C258D;
     background: -webkit-linear-gradient(to right, #2a8caf, #7329b4);
     background: linear-gradient(to right, #2a8caf, #5C258D); */
@@ -24,7 +25,7 @@
     margin: 0 auto;
 }
 #body .container .row  {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .form-card {
     border-radius: 10px;

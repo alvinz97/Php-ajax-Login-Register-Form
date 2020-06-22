@@ -1,0 +1,31 @@
+/* @media (max-width: 1640px) {
+  #body .container .row  {
+    margin-bottom: 100px;
+    }
+}
+@media (max-width: 1366px) {
+  #body .container .row  {
+    margin-bottom: 150px;
+    }
+}
+@media (max-width: 1290px) {
+  #body .container .row  {
+    margin-bottom: 170px;
+    }
+} */
+
+@media (max-width: 1025px) {
+  #body {
+    height: 90vh;
+}
+}
+@media (max-width: 376px) {
+  #body {
+    height: 90vh;
+}
+}
+@media (max-width: 319px) {
+  #body {
+    height: 90vh;
+}
+}

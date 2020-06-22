@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="plugin/bootstrap-4.5.0/css/bootstrap-grid.css">
     <link rel="stylesheet" href="plugin/bootstrap-4.5.0/css/bootstrap-grid.min.css">
@@ -21,8 +22,7 @@
 <body id="body">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-10 col-10 justify-content-center text-center form-card">
-
+            <div class="col-lg-4 col-md-10 col-sm-10 col-10 justify-content-center text-center form-card">
                 <!-- REGISTER AREA  -->
                 <form action="" method="post" class="form" id="register-form">
                     <h3>Welcome</h3>
