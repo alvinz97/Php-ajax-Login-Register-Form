@@ -1,8 +1,7 @@
 # PHP-Ajax Complete Login & Register Form
 
-
-Author: Rusiru Ashan Kulathunga
-[Website](https://www.rusiruofficial.com)
+* Author: Rusiru Ashan Kulathunga
+* Website: [Rusiru Official](https://www.rusiruofficial.com)
 
 # Development setup
 
