@@ -6,9 +6,18 @@
     text-decoration: none;
 }
 #body {
-    background: #5C258D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2a8caf, #7329b4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2a8caf, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #5C258D;
+    background: -webkit-linear-gradient(to right, #2a8caf, #7329b4);
+    background: linear-gradient(to right, #2a8caf, #5C258D); */
+
+    background-image: url('../images/main_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.brandName img {
+    width: 75px;
+    height: 75px;
 }
 
 #body .container .row > div {
@@ -70,4 +79,5 @@ form .register:hover{
 .success {
     color: rgb(0, 243, 0);
 }
+
 /* LOGIN AREA  */

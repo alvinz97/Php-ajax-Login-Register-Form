@@ -62,17 +62,6 @@ if ($status == 'login') {
                 echo 'wrongPwd';
             } elseif ($pwdCheck == true) {
                 session_start();
-                if (!empty($remember)) {
-                    setcookie("remember_username", $email, time() + (10 * 24 * 60 * 60), "/");
-                    setcookie("remember_pass", $password, time() + (10 * 24 * 60 * 60), "/");
-                } else {
-                    if (isset($_COOKIE['remember_username'])) {
-                        setcookie("remember_username", "");
-                    }
-                    if (isset($_COOKIE['remember_pass'])) {
-                        setcookie("remember_pass", "");
-                    }
-                }
                 $_SESSION['userID'] = $row['id'];
                 $_SESSION['username'] = $row['username'];
 

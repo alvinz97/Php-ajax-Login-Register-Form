@@ -19,13 +19,16 @@
 </head>
 
 <body id="body">
-
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-10 col-10 justify-content-center text-center form-card">
 
                 <!-- REGISTER AREA  -->
                 <form action="" method="post" class="form" id="register-form">
+                    <h3>Welcome</h3>
+                    <div class="brandName mb-2">
+                        <img src="images/fav-icon.png" alt="Rusiru Ashan Kulathunga || Rusiru Official">
+                    </div>
                     <div class="errorLogs"></div>
                     <div class="form-group">
                         <input type="text" name="username" id="username" class="form-control" placeholder="Enter user name" data-rule="minlen:6" data-msg="Please enter at least 6 chars">
@@ -47,12 +50,17 @@
                     <button type="submit" class="register btn btn-block" id="register">Register</button>
 
                     <div class="link mt-4">
-                        <p>Already a member ? <a href="#" id="loginLink">login</a></p>
+                        <p>Already a member ? <a href="#" id="loginLink">Login</a></p>
                     </div>
                 </form>
 
                 <!-- LOGIN ARE  -->
                 <form action="" method="post" class="form" id="login-form" style="display: none;">
+                    <h3>Welcome</h3>
+                    <div class="brandName mb-2">
+                        <img src="images/fav-icon.png" alt="Rusiru Ashan Kulathunga || Rusiru Official">
+                    </div>
+
                     <div class="loginErrorLogs"></div>
                     <div class="form-group">
                         <input type="text" name="uName" id="uName" class="form-control" placeholder="Enter user name" data-rule="required" data-msg="Please enter your username address">
@@ -76,20 +84,22 @@
             </div>
             </row>
         </div>
+    </div>
 
 
 
-        <script src="js/jQuery-v3.5.1.js"></script>
-        <script src="js/main.js"></script>
-        <script src="plugin/bootstrap-4.5.0/js/bootstrap.bundle.js"></script>
-        <script src="plugin/bootstrap-4.5.0/js/bootstrap.bundle.min.js"></script>
-        <script src="plugin/bootstrap-4.5.0/js/bootstrap.js"></script>
-        <script src="plugin/bootstrap-4.5.0/js/bootstrap.min.js"></script>
-        <script src="plugin/bootstrap-4.5.0/js/bootstrap.min.js"></script>
-        <script src="plugin/fontawesome-5.13.1/js/all.js"></script>
-        <script src="plugin/fontawesome-5.13.1/js/all.min.js"></script>
-        <script src="plugin/fontawesome-5.13.1/js/fontawesome.js"></script>
-        <script src="plugin/fontawesome-5.13.1/js/fontawesome.min.js"></script>
+
+    <script src="js/jQuery-v3.5.1.js"></script>
+    <script src="js/main.js"></script>
+    <script src="plugin/bootstrap-4.5.0/js/bootstrap.bundle.js"></script>
+    <script src="plugin/bootstrap-4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="plugin/bootstrap-4.5.0/js/bootstrap.js"></script>
+    <script src="plugin/bootstrap-4.5.0/js/bootstrap.min.js"></script>
+    <script src="plugin/bootstrap-4.5.0/js/bootstrap.min.js"></script>
+    <script src="plugin/fontawesome-5.13.1/js/all.js"></script>
+    <script src="plugin/fontawesome-5.13.1/js/all.min.js"></script>
+    <script src="plugin/fontawesome-5.13.1/js/fontawesome.js"></script>
+    <script src="plugin/fontawesome-5.13.1/js/fontawesome.min.js"></script>
 </body>
 
 </html>
