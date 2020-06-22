@@ -34,7 +34,7 @@
    * Goto phpMyAdmin.
        * [phpMyAdmin](http://localhost/phpmyadmin/index.php)
    * Then create brand new database called "login-register-php-ajax" and select Import tab in the navigation bar.
-   * Then click choose file and go to htdocs->itp->db->login-register-php-ajax.sql.
+   * Then click choose file and go to htdocs->folder name->db->login-register-php-ajax.sql.
    * Then hit GO.
 
  ### 6. Start server
