@@ -1,3 +1,5 @@
+<!-- Author: Rusiru Ashan Kulathunga
+Website: https://www.rusiruofficial.com -->
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">

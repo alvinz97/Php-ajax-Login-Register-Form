@@ -1,3 +1,6 @@
+// Author: Rusiru Ashan Kulathunga
+// Website: https://www.rusiruofficial.com
+
 jQuery(document).ready(function ($) {
     "use strict";
     $('#login-form').hide();
