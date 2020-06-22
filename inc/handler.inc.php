@@ -48,12 +48,12 @@ if ($status == 'login') {
     $password = $_REQUEST['password'];
     $remember = $_REQUEST['remember'];
 
-    $sql = "SELECT * FROM users WHERE username=? OR email=?;";
+    $sql = "SELECT * FROM users WHERE username=?;";
     $stmt = mysqli_stmt_init($db);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
         echo 'sqlError';
     } else {
-        mysqli_stmt_bind_param($stmt, "ss", $username, $email);
+        mysqli_stmt_bind_param($stmt, "s", $username);
         mysqli_stmt_execute($stmt);
         $result = mysqli_stmt_get_result($stmt);
         if ($row = mysqli_fetch_assoc($result)) {

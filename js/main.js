@@ -91,7 +91,7 @@ jQuery(document).ready(function ($) {
                     $(".errorLogs").text("Successfully registered");
                     $('#register').text("Submitting ...")
                     setTimeout(function () {
-                        $(location).attr('href', 'welcome.html')
+                        $(location).attr('href', 'welcome.php')
                     }, 3500);
                 }
 
@@ -147,6 +147,7 @@ jQuery(document).ready(function ($) {
         var username = $('#uName').val();
         var password = $('#uPassword').val();
         var remember = $('#remember').val();
+        // console.log(username, password, remember);
         $.ajax({
             type: "POST",
             url: action,
@@ -163,7 +164,7 @@ jQuery(document).ready(function ($) {
                     $('#password').val('')
                 } else if (data == 'noUser') {
                     $(".loginErrorLogs").addClass("error");
-                    $(".loginErrorLogs").text("No User Found!. Please register before");
+                    $(".loginErrorLogs").text("No user found!. Please register before");
                     $('#login-form').find("input").val('')
                 } else if (data == 'OK') {
                     $(".loginErrorLogs").removeClass("error");
@@ -172,7 +173,7 @@ jQuery(document).ready(function ($) {
                     $(".loginErrorLogs").text("Successful login");
                     $('#login').text("Logging ...")
                     setTimeout(function () {
-                        $(location).attr('href', 'welcome.html')
+                        $(location).attr('href', 'welcome.php')
                     }, 3500);
                 }
 
