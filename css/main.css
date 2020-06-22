@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#body a {
+    text-decoration: none;
+}
+#body {
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a8caf, #7329b4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a8caf, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#body .container .row > div {
+    margin: 0 auto;
+}
+#body .container .row  {
+    margin-top: 100px;
+}
+.form-card {
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 30px 0px 30px;
+    background-color: white;
+    box-shadow: 0px 10px 30px 0px rgba(83, 92, 67, 0.2);
+}
+
+.form-card form {
+    padding: 30px;
+}
+.form input {
+    margin-bottom: 2px;
+    border-radius: 0%;
+    padding: 20px 0px 20px 0px;
+    border: none;
+    border-bottom: 1px solid rgb(236, 39, 39);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form input::after {
+    border: none;
+}
+form .register{
+    /* background: #a64bf4; */
+    background: -webkit-linear-gradient(right, #5660f0, #ff0000);
+    border-radius: 30px;
+    padding: 7px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    transition: all 0.8s;
+    text-transform: uppercase;
+}
+form .register:hover{
+    /* background: #a64bf4; */
+    background: -webkit-linear-gradient(right,#ff0000, #5660f0);
+    border-radius: 30px;
+    color: rgb(167, 192, 221);
+}
+.validation {
+    font-size: 12px;
+    margin: 0px;
+}
+
+.validation .fa-times-circle {
+    display: none;
+}
+.error {
+    color: red;
+}
+.success {
+    color: rgb(0, 243, 0);
+}
+/* LOGIN AREA  */
