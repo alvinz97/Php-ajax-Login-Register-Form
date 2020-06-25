@@ -39,8 +39,6 @@
 
  ### 6. Start server
   * start the server and run;
-    * [Client View](http://localhost:8080/foldername)
-    * Register new user then login
 
  # Libraries
   * [jQuery](https://jquery.com/)
