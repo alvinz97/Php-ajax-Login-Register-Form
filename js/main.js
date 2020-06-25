@@ -3,16 +3,6 @@
 
 jQuery(document).ready(function ($) {
     "use strict";
-    $('#login-form').hide();
-
-    $('#loginLink').click(function (){
-        $('#login-form').show();
-        $('#register-form').hide();
-    })
-    $('#registerLink').click(function () {
-        $('#login-form').hide();
-        $('#register-form').show();
-    })
 
     // REGISTER AREA 
     $('#register-form').submit(function () {
