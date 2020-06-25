@@ -28,7 +28,7 @@ Website: https://www.rusiruofficial.com -->
             <div class="col-lg-4 col-md-10 col-sm-10 col-10 justify-content-center text-center form-card">
                 <!-- REGISTER AREA  -->
                 <form action="" method="post" class="form" id="register-form">
-                    <h3>Welcome</h3>
+                    <h3>Register</h3>
                     <div class="brandName mb-2">
                         <img src="images/fav-icon.png" alt="Rusiru Ashan Kulathunga || Rusiru Official">
                     </div>
